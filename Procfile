@@ -1,1 +1,1 @@
-web: gunicorn projecgit status.wsgi --log-file -
+web: gunicorn projec.wsgi --log-file -
