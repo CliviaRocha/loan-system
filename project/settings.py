@@ -92,10 +92,10 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbfintech',
-        'USER': 'postgres',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'd75l05rqt21o06',
+        'USER': 'telaemaqeuwhcd',
+        'PASSWORD': '067a541cfbd426483cd65fb2e1b7287825b735b0b5570120c5e315e1b1a47faa',
+        'HOST': 'ec2-54-221-212-126.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
