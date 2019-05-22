@@ -1,0 +1,1 @@
+web: gunicorn projecgit status.wsgi --log-file -
