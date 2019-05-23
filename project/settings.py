@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i@xh^+m1#+!*^ily7@_0$zrnpi38dq3*ua4=_yb=k*_vz4=^aw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -92,10 +92,10 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd75l05rqt21o06',
-        'USER': 'telaemaqeuwhcd',
-        'PASSWORD': '067a541cfbd426483cd65fb2e1b7287825b735b0b5570120c5e315e1b1a47faa',
-        'HOST': 'ec2-54-221-212-126.compute-1.amazonaws.com',
+        'NAME': 'dbfintech',
+        'USER': 'postgres',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
@@ -137,4 +137,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
